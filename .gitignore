@@ -1,1 +1,16 @@
-venv/
+# Ambiente Virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Dados (Não subimos dados brutos ou processados para o GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Configurações locais do sistema ou editores
+.vscode/
+.idea/
+*.swp
+.DS_Store
